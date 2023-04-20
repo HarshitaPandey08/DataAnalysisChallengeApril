@@ -1,12 +1,35 @@
 1.	Sellers_dataset_table 
 Duplicates:No 
-select seller_id,seller_zip_code_prefix,seller_city,seller_state
+
+  select seller_id,seller_zip_code_prefix,seller_city,seller_state,count(*)
   from dbo.sellers_dataset
+  group by seller_id,seller_zip_code_prefix,seller_city,seller_state
   having count(*) >1
+  
 Null values: No
   select *
   from dbo.sellers_dataset
   where seller_id is Null and seller_zip_code_prefix is null and seller_city is null and seller_state is null
+  
+  
+ 2.reviews table
+ Duplicates:No (when grouping columns that means there is no duplicate rows with similar values considering all the columns together)
+ select review_id,order_id,review_score,review_comment_title,
+  review_comment_message,review_creation_date,review_answer_timestamp,count(*)
+  from dbo.order_reviews
+  group by review_id,order_id,review_score,review_comment_title,
+  review_comment_message,review_creation_date,review_answer_timestamp
+  having count(*) >1
+  
+  Yes (when individual columns are considered)
+  
+  Null values: Yes (in columns review_comment_title and review_comment_message)
+  select *
+  from dbo.order_reviews
+  where review_id is null or order_id is null or review_score is null or review_comment_title is null or 
+  review_comment_message is null or review_creation_date is null or review_answer_timestamp is null
+  
+ 
   
   
   
