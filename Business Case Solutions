@@ -43,5 +43,12 @@ order by round(avg(p.payment_value),2) DESC
 
 
 5: How many sellers are active on Olist, and how does this number change over time?
+
+select count(s.seller_id) as sellers_active,year(o.shipping_limit_date) as year from dbo.sellers_dataset s
+join dbo.order_items_dataset o on s.seller_id=o.seller_id
+group by year(o.shipping_limit_date)
+order by year(o.shipping_limit_date) 
+
+
 6: What is the distribution of seller ratings on Olist, and how does this impact sales
 performance
