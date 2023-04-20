@@ -1,0 +1,12 @@
+1.	Sellers_dataset_table 
+Duplicates:No 
+select seller_id,seller_zip_code_prefix,seller_city,seller_state
+  from dbo.sellers_dataset
+  having count(*) >1
+Null values: No
+  select *
+  from dbo.sellers_dataset
+  where seller_id is Null and seller_zip_code_prefix is null and seller_city is null and seller_state is null
+  
+  
+  
