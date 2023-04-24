@@ -11,6 +11,25 @@ Null values: No
   from dbo.sellers_dataset
   where seller_id is Null and seller_zip_code_prefix is null and seller_city is null and seller_state is null
   
+  Special characters:No
+  select seller_id
+  from dbo.sellers_dataset
+  where seller_id like '%[^a-zA-Z0-9]%'
+
+   select seller_zip_code_prefix
+  from dbo.sellers_dataset
+  where seller_zip_code_prefix like '%[^a-zA-Z0-9]%'
+
+   select seller_city
+  from dbo.sellers_dataset
+  where seller_city like '%[^a-zA-Z0-9]%'(--doubt error)
+
+   select seller_state
+  from dbo.sellers_dataset
+  where seller_state like '%[^a-zA-Z0-9]%'
+  
+  
+  
   
  2.reviews table
  Duplicates:No (when grouping columns that means there is no duplicate rows with similar values considering all the columns together)
