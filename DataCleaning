@@ -130,6 +130,29 @@ select customer_id,customer_unique_id ,
   customer_zip_code_prefix ,customer_city , customer_state 
   having count(*) >1
   
+  --special character: NIL  (customer city:error)
+  select customer_id 
+  from [dbo].[customers_dataset]
+  where customer_id like '%[^a-zA-Z0-9]%'
+
+  select customer_unique_id
+  from [dbo].[customers_dataset]
+  where customer_unique_id like '%[^a-zA-Z0-9]%'
+
+  select customer_zip_code_prefix
+  from [dbo].[customers_dataset]
+  where customer_zip_code_prefix like '%[^a-zA-Z0-9]%'
+
+  select customer_city
+  from [dbo].[customers_dataset]
+  where customer_city like '%[^a-zA-Z0-9]%'
+
+  select customer_state
+  from [dbo].[customers_dataset]
+  where customer_state like '%[^a-zA-Z0-9]%'
+
+
+  
   4.order_items_dataset table
   
   null values :No
