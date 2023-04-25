@@ -196,7 +196,7 @@ duplicates:No
       ,freight_value 
 	  having count(*)>1
     
-    special characters:
+    special characters:No (error in shipping_limit_date)
     
     
   select order_id
