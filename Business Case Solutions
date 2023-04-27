@@ -61,3 +61,18 @@ join dbo.order_reviews r on o.order_id=r.order_id
 join sellers_dataset s on o.seller_id=s.seller_id
 group by r.review_score
 order by r.review_score  DESC
+
+
+7.with first_purchase as(
+select customer_id,CONVERT(date, min(order_purchase_timestamp)) as date_of_first_purchase
+from orders_dataset
+group by customer_id)
+select o.customer_id,o.order_status ,CONVERT(date, o.order_purchase_timestamp),CONVERT(date,fp.date_of_first_purchase),
+case when CONVERT(date, o.order_purchase_timestamp)=CONVERT(date,fp.date_of_first_purchase) then 1 else 0 end as first_purchase_flag,
+case when CONVERT(date, o.order_purchase_timestamp)!=CONVERT(date,fp.date_of_first_purchase) then 1 else 0 end as repeat_purchase_flag
+from orders_dataset o
+inner join first_purchase fp on o.customer_id=fp.customer_id
+
+select distinct customer_id
+from orders_dataset
+
