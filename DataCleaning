@@ -300,7 +300,8 @@ select order_id
   EXEC sp_rename '[dbo].[products_dataset].[product_name_lenght]', 'product_name_length', 'COLUMN';
   EXEC sp_rename '[dbo].[products_dataset].[product_description_lenght]', 'product_description_length', 'COLUMN';
 	
---Null values (611 rows where product_category_name, product_name_length, product_description_length, product_photos_qty is null)
+--Null values (611 rows where product_category_name, product_name_length, product_description_length, product_photos_qty is null,product_weight_g
+       product_length_cm, product_height_cm, product_width_cm )
 select * from [dbo].[products_dataset]
 where product_id is null or
       product_category_name
@@ -311,6 +312,17 @@ where product_id is null or
       is null or product_length_cm
       is null or product_height_cm
       is null or product_width_cm is null 
+      
+ --replacing null values with N/A and 0 according to type of data
+ update [dbo].[products_dataset] 
+set product_category_name=coalesce(product_category_name,'N/A'),
+product_name_length=coalesce(product_name_length,0),
+product_description_length=coalesce(product_description_length,0),
+product_photos_qty=coalesce(product_photos_qty,0),
+product_weight_g=coalesce(product_weight_g,0),
+product_length_cm=coalesce(product_length_cm,0),
+product_height_cm=coalesce(product_height_cm,0),
+product_width_cm=coalesce(product_width_cm,0)
 
 --duplicate values:NIL
 select product_id ,product_category_name,product_name_length,product_description_length
@@ -351,7 +363,7 @@ where product_width_cm like '%[^a-zA-Z0-9]%'
 
 --replacing special characters in product_category_name column from esporte_lazer to esporte lazer
 update [dbo].[products_dataset]
-set product_category_name=replace(product_category_name,'-','')
+set product_category_name=replace(product_category_name,'_',' ')
 
 7.orders_dataset table
 
