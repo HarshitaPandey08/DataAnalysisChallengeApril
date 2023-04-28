@@ -1,5 +1,6 @@
 
 unaccent function
+NVL vs COALESCE to handle NULL values in SQL.
 reg_expreplace & the unaccent functions to replace the unwanted characters.
 
 
