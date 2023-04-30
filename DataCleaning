@@ -481,6 +481,28 @@ select geolocation_zip_code_prefix , geolocation_lat , geolocation_lng
   where  geolocation_state like '%[^a-zA-Z ]%'
 
 
+9.product_category_name_translation
+
+
+update [dbo].[product_category_name_translation]
+set product_category_name_english=replace(product_category_name_english,'_',' ')
+,product_category_name=replace(product_category_name,'_',' ')
+
+select distinct product_category_name from products_dataset p
+where product_category_name not in
+(select distinct [product_category_name] from [product_category_name_translation])
+
+
+insert into  [product_category_name_translation]
+values('pc gamer','gaming pc')
+insert into  [product_category_name_translation]
+values('portateis cozinha e preparadores de alimentos','Portable kitchen and food preparers
+')
+insert into  [product_category_name_translation]
+values('N/A','N/A')
+
+
+
 
 
 
