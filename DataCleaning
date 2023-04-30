@@ -425,6 +425,10 @@ set product_category_name=replace(product_category_name,'_',' ')
   from[dbo].[orders_dataset]
   where [order_estimated_delivery_date] like '%[^a-zA-Z0-9-.:]%'
   
+ -- instead of replacing null values in order_approved_at,order_delivered_carrier_date]
+--,order_delivered_customer_date leave it as it is
+
+  
   8.geolocation_dataset table
   
   --Total rows:10,00,163
