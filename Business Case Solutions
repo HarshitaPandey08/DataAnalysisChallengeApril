@@ -183,3 +183,46 @@ join product_category_name_translation p on pr.product_category_name=p.product_c
 where o.order_status<>'canceled'and year(o.order_purchase_timestamp)='2018' and o.order_approved_at is not null
 group by p.product_category_name_english
 order by 2 DESC
+
+--11: Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?
+
+--most Commonly used payements methods
+select pa.payment_type,count(o.order_id) as Number_of_orders
+from orders_dataset o 
+join order_payments_dataset pa on o.order_id=pa.order_id
+where o.order_status<>'canceled' and o.order_approved_at is not null
+group by pa.payment_type
+order by 2 DESC
+
+----most Commonly used payements methods by product category
+select pc.product_category_name_english as category_name, sum(case when pa.payment_type='debit_card' then 1 else 0 end) as debit_card,
+sum(case when pa.payment_type='credit_card' then 1 else 0 end) as credit_card,
+sum(case when pa.payment_type='boleto' then 1 else 0 end) as boleto,
+sum(case when pa.payment_type='voucher' then 1 else 0 end) as voucher
+from orders_dataset o 
+join order_payments_dataset pa on o.order_id=pa.order_id
+join order_items_dataset i on o.order_id=i.order_id
+join products_dataset pr on i.product_id=pr.product_id
+join product_category_name_translation pc on pr.product_category_name=pc.product_category_name_english
+where o.order_status<>'canceled' and o.order_approved_at is not null 
+group by pc.product_category_name_english
+
+--most Commonly used payements methods by state
+select  c.customer_state,sum(case when pa.payment_type='debit_card' then 1 else 0 end) as debit_card,
+sum(case when pa.payment_type='credit_card' then 1 else 0 end) as credit_card,
+sum(case when pa.payment_type='boleto' then 1 else 0 end) as boleto,
+sum(case when pa.payment_type='voucher' then 1 else 0 end) as voucher
+from orders_dataset o 
+join order_payments_dataset pa on o.order_id=pa.order_id
+join customers_dataset c on o.customer_id=c.customer_id
+join order_items_dataset i on o.order_id=i.order_id
+join products_dataset pr on i.product_id=pr.product_id
+join product_category_name_translation pc on pr.product_category_name=pc.product_category_name_english
+where o.order_status<>'canceled' and o.order_approved_at is not null 
+group by c.customer_state
+
+
+
+
+
+
