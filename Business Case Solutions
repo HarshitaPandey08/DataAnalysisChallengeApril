@@ -50,12 +50,13 @@ order by year(order_purchase_timestamp),month(order_purchase_timestamp)
 --3: What are the most popular product categories on Olist, and how do their sales volumes
 compare to each other?
 
-select p.product_category_name,count(i.product_id) as Count_of_products_purchased
-from dbo.products_dataset p
-join order_items_dataset i on p.product_id=i.product_id
-group by p.product_category_name
-order by count(i.product_id) DESC
-
+select c.product_category_name_english as Category,count(o.order_id) as Count_of_orders,round(sum(pa.payment_value),2) as Revenue
+from products_dataset p 
+join order_items_dataset o on p.product_id=o.product_id
+join order_payments_dataset pa on  o.order_id=pa.order_id
+join product_category_name_translation c on p.product_category_name=c.product_category_name
+group by c.product_category_name_english
+order by 2 DESC
 
 
 --4: What is the average order value (AOV) on Olist, and how does this vary by product category
