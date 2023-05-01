@@ -131,3 +131,19 @@ inner join first_purchase fp on o.customer_id=fp.customer_id
 select distinct customer_id
 from orders_dataset
 
+
+--8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?
+
+select round(avg(review_score),2) as average_ratings,p.product_category_name_english,
+round(sum(op.payment_value),2) as Total_revnue,round(avg(op.payment_value),2) as Average_revnue
+from order_reviews r
+join orders_dataset o on r.order_id=o.order_id
+join order_items_dataset i on r.order_id=i.order_id
+join products_dataset pa on  i.product_id=pa.product_id
+join product_category_name_translation p on pa.product_category_name=p.product_category_name
+join order_payments_dataset op on r.order_id=op.order_id
+where o.order_status<> 'canceled'
+group by p.product_category_name_english
+order by 1 DESC
+
+
