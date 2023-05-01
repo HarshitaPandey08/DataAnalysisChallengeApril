@@ -62,14 +62,25 @@ order by 2 DESC
 --4: What is the average order value (AOV) on Olist, and how does this vary by product category
 or payment method?
 
+--by category
+select c.product_category_name_english as Category,round(avg(pa.payment_value),2) as AOV
+from products_dataset p 
+join order_items_dataset o on p.product_id=o.product_id
+join order_payments_dataset pa on  o.order_id=pa.order_id
+join product_category_name_translation c on p.product_category_name=c.product_category_name
+group by c.product_category_name_english
+order by 2 DESC
+
+--by payement type
+select pa.payment_type,round(avg(pa.payment_value),2) as AOV
+from products_dataset p 
+join order_items_dataset o on p.product_id=o.product_id
+join order_payments_dataset pa on  o.order_id=pa.order_id
+group by pa.payment_type
+order by 2 DESC
 
 
-select round(avg(p.payment_value),2) as AOV ,p.payment_type,pr.product_category_name
-from order_items_dataset i
-join dbo.order_payments_dataset p on i.order_id=p.order_id
-join dbo.products_dataset pr on  i.product_id=pr.product_id 
-group by p.payment_type,pr.product_category_name 
-order by round(avg(p.payment_value),2) DESC
+
 
 
 5: How many sellers are active on Olist, and how does this number change over time?
