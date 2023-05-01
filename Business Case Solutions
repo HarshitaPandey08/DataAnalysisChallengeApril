@@ -105,12 +105,17 @@ group by year(o.order_purchase_timestamp)
 
 6: What is the distribution of seller ratings on Olist, and how does this impact sales
 performance
-select  r.review_score as Rating,count(distinct s.seller_id) as Count_of_sellers
-from order_items_dataset o
-join dbo.order_reviews r on o.order_id=r.order_id
-join sellers_dataset s on o.seller_id=s.seller_id
-group by r.review_score
-order by r.review_score  DESC
+
+
+select review_score,count(i.seller_id) as Number_of_sellers,round(sum(p.payment_value),2) as Total_Revenue
+,round(avg(p.payment_value),2) as Average_Revenue
+from order_reviews r
+join order_items_dataset i on r.order_id=i.order_id
+join order_payments_dataset p on r.order_id=p.order_id
+join orders_dataset o on r.order_id=o.order_id
+where o.order_status<> 'canceled'
+group by review_score
+order by 1 DESC
 
 
 7.with first_purchase as(
