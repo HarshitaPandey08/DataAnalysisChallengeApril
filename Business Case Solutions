@@ -139,6 +139,24 @@ where o.order_status<> 'canceled'
 group by p.product_category_name_english
 order by 1 DESC
 
+--9: What is the average order cancellation rate on Olist, and how does this impact seller
+performance?
+
+select (sum(case when order_status='canceled' then 1 end)*1.0 /count(order_id) )*100 as Order_cancellation_rate
+from orders_dataset
+
+select distinct seller_id,sum(case when order_status='canceled' then 1 else 0 end) as Canceled_order_count,
+sum(case when order_status<>'canceled' then 1 else 0 end) as Delivered_order_count,sum(payment_value) as Revenue
+from orders_dataset o
+join order_payments_dataset p on o.order_id=p.order_id
+join order_items_dataset i on o.order_id=i.order_id
+where o.order_approved_at is not null
+group by seller_id,order_status
+order by 4 DESC
+
+
+
+
 
 10.--top selling products over the entire duration
 select p.product_category_name_english,round(sum(pa.payment_value),2) as Total_revenue
