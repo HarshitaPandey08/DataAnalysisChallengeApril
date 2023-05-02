@@ -112,17 +112,39 @@ order by 1 DESC
 
 
 7.with first_purchase as(
-select customer_id,CONVERT(date, min(order_purchase_timestamp)) as date_of_first_purchase
-from orders_dataset
-group by customer_id)
-select o.customer_id,o.order_status ,CONVERT(date, o.order_purchase_timestamp),CONVERT(date,fp.date_of_first_purchase),
-case when CONVERT(date, o.order_purchase_timestamp)=CONVERT(date,fp.date_of_first_purchase) then 1 else 0 end as first_purchase_flag,
-case when CONVERT(date, o.order_purchase_timestamp)!=CONVERT(date,fp.date_of_first_purchase) then 1 else 0 end as repeat_purchase_flag
-from orders_dataset o
-inner join first_purchase fp on o.customer_id=fp.customer_id
 
-select distinct customer_id
-from orders_dataset
+--count of repeat customers
+with rp as (select distinct c.customer_unique_id as unique_id,count( o.order_id) as count_of_repeat_purchases
+from orders_dataset o
+join customers_dataset c on o.customer_id=c.customer_id
+where o.order_status<>'canceled'
+group by c.customer_unique_id
+)
+select count(rp.unique_id) as repeat_customer_count
+from rp
+where count_of_repeat_purchases>1;
+
+--count of total customers
+select count(customer_unique_id) as Total_customers
+from customers_dataset;
+
+--sales 
+with rp as (select distinct c.customer_unique_id as unique_id,count( o.order_id) as count_of_repeat_purchases,sum(payment_value) as revenue
+from orders_dataset o
+join customers_dataset c on o.customer_id=c.customer_id
+join order_payments_dataset p on o.order_id=p.order_id
+where o.order_status<>'canceled'  and o.order_approved_at is not null
+group by c.customer_unique_id
+),
+ ts as (select round(sum(payment_value),2) as total_revenue
+from order_payments_dataset p
+join orders_dataset o on p.order_id=o.order_id
+where  o.order_status<>'canceled' and o.order_approved_at is not null)
+
+select round((round(sum(revenue),2)/total_revenue)*100,2) as Percentage_of_sales_by_repeat_customers
+from rp,ts
+where count_of_repeat_purchases>1
+group by total_revenue;
 
 
 --8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?
