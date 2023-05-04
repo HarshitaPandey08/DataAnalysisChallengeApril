@@ -1,14 +1,16 @@
-**Olist E-commerce Data Analysis
+**Olist E-commerce Data Analysis**
 
 
-BY : Harshita Pandey
-**
+**- Harshita Pandey**
+
 
 
 ![p2](https://user-images.githubusercontent.com/53274845/236129119-c458b1b9-e0e8-490d-b28a-5fcb2bb1857d.jpg)
 
 
 **Introduction:**
+
+
 
 Olist is a Brazilian e-commerce platform that connects small and medium-sized businesses to
 customers across Brazil. The platform operates as a marketplace, where merchants can list
