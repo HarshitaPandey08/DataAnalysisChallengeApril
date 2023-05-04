@@ -5,4 +5,4 @@ BY : Harshita Pandey
 
 
 
-                        ![image](https://user-images.githubusercontent.com/53274845/236128686-d35de7b5-e911-4e63-8766-d2950358d3a8.png)
+![p2](https://user-images.githubusercontent.com/53274845/236129119-c458b1b9-e0e8-490d-b28a-5fcb2bb1857d.jpg)
