@@ -1,6 +1,8 @@
 **All the Datasets are available in csv format**
 
 
+
+
 **1. customers_dataset:**
 
 customer_id: unique identifier for each customer
@@ -14,6 +16,8 @@ customer_city: city where the customer is located
 customer_state: state where the customer is located
 
 
+
+
 **2.geolocation_dataset:**
 
 geolocation_zip_code_prefix: zip code prefix for the location
@@ -25,6 +29,8 @@ geolocation_lng: longitude of the location
 geolocation_city: city of the location
 
 geolocation_state: state of the location
+
+
 
 
 **3.orders_dataset:**
@@ -46,6 +52,8 @@ order_delivered_customer_date: date and time when the order was delivered to the
 order_estimated_delivery_date: estimated date when the order is expected to be delivered
 
 
+
+
 **4. order_items_dataset:**
 
 order_id: unique identifier for the order
@@ -63,6 +71,8 @@ price: price of the product
 freight_value: shipping fee for the product
 
 
+
+
 **5. order_payments_dataset:**
 
 order_id: unique identifier for the order
@@ -75,6 +85,8 @@ payment_type: type of payment used for the order (e.g. credit card, debit card, 
 payment_installments: number of installments in which the payment was made
 
 payment_value: value of the payment made
+
+
 
 
 **6. products_dataset: **
@@ -99,6 +111,8 @@ product_height_cm: height of the product in centimeters
 product_width_cm: width of the product in centimeters
 
 
+
+
 **7. olist_sellers_dataset:**
 
 seller_id: unique identifier for each seller
@@ -111,11 +125,15 @@ seller_city: city where the seller is located
 seller_state: state where the seller is located
 
 
+
+
 **8. product_category_name_translation:**
 
 product_category_name: name of the product category in Portuguese
 
 product_category_name_english: name of the product category in English
+
+
 
 
 **9. olist_order_reviews_dataset:**
@@ -138,5 +156,7 @@ applicable)
 
 
 
-Note: The review comment fields (i.e. review_comment_title and review_comment_message)
+
+
+**Note:** The review comment fields (i.e. review_comment_title and review_comment_message)
 are optional, and may not be present in all reviews.
