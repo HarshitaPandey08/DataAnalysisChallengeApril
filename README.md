@@ -23,3 +23,11 @@ information about the sellers who list their products on Olist, as well as data 
 behavior and demographics. The dataset is designed to help analysts and researchers better
 understand the e-commerce landscape in Brazil and identify opportunities for growth and
 optimization.
+
+
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+
+
+
+![1_aXTlOcs3-l0L4Bi_pyiADA](https://user-images.githubusercontent.com/53274845/236130348-69a03e11-4d35-48f5-b3cf-37abb1994d20.jpg)
