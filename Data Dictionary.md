@@ -4,9 +4,13 @@
 **1. customers_dataset:**
 
 customer_id: unique identifier for each customer
+
 customer_unique_id: unique identifier for each customer (anonymized)
+
 customer_zip_code_prefix: zip code prefix of the customer's address
+
 customer_city: city where the customer is located
+
 customer_state: state where the customer is located
 
 
