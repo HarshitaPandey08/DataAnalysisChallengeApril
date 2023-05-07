@@ -111,7 +111,10 @@ group by review_score
 order by 1 DESC
 
 
-7.with first_purchase as(
+7. How many customers have made repeat purchases on Olist, and what percentage of total
+sales do they account for?
+
+with first_purchase as(
 
 --count of repeat customers
 with rp as (select distinct c.customer_unique_id as unique_id,count( o.order_id) as count_of_repeat_purchases
