@@ -35,3 +35,19 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 
 ![image](https://user-images.githubusercontent.com/53274845/236662543-1e1c3be8-3ef5-472a-a4f3-00db2889657e.png)
+
+
+![image](https://user-images.githubusercontent.com/53274845/236662751-5ef37aa6-f3a7-4fbc-9159-31feaa7e5281.png)
+
+![image](https://user-images.githubusercontent.com/53274845/236663095-86aebeb0-eba1-4892-a495-d842e9d55cff.png)
+
+![image](https://user-images.githubusercontent.com/53274845/236663337-18ac7034-fbf5-461f-bf5d-38a263f10d6f.png)
+
+![image](https://user-images.githubusercontent.com/53274845/236663526-107388e8-96fe-4784-a0ce-534c46a47f34.png)
+
+![image](https://user-images.githubusercontent.com/53274845/236663825-3b93a90a-004b-4a36-8c87-7e6f6db6e6ab.png)
+
+
+
+
+
