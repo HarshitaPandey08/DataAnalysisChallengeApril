@@ -89,6 +89,11 @@ Average of Review Score vs. average of Payment Value and sum of Payment Value.  
 ![image](https://user-images.githubusercontent.com/53274845/236753397-308a004c-eb28-4131-8c9e-857d1b068fc5.png)
 
 
+10.
+
+![image](https://user-images.githubusercontent.com/53274845/236757406-d23d7821-c09e-4f5a-a8fe-e55a2d597bfe.png)
+
+
 
 
 
