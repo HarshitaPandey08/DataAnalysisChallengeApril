@@ -52,7 +52,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ![image](https://user-images.githubusercontent.com/53274845/236663825-3b93a90a-004b-4a36-8c87-7e6f6db6e6ab.png)
 
-3.What are the most popular product categories on Olist, and how do their sales volumes
+3. What are the most popular product categories on Olist, and how do their sales volumes compare to each other?
 ![image](https://user-images.githubusercontent.com/53274845/236664692-2b7b66a5-d10a-4651-8d94-01ed6dc6155a.png)
 
 
@@ -63,14 +63,15 @@ or payment method?
 
 ![image](https://user-images.githubusercontent.com/53274845/236682252-b1d0f4a9-3419-494f-976e-c38c2ebd7b72.png)
 
-5.How many sellers are active on Olist, and how does this number change over time?
+
 ![image](https://user-images.githubusercontent.com/53274845/236665854-6a5220ad-73a0-4793-9457-b26a5e57b34a.png)
+
+5.How many sellers are active on Olist, and how does this number change over time?
 ![image](https://user-images.githubusercontent.com/53274845/236682638-1d3c027b-c58e-4541-800e-7b9ad7da77f1.png)
 
-6.What is the distribution of seller ratings on Olist, and how does this impact sales
-performance
-![image](https://user-images.githubusercontent.com/53274845/236682958-9f62917e-1dfa-4940-a7fc-2149a39b2c59.png)
 
+![image](https://user-images.githubusercontent.com/53274845/236682958-9f62917e-1dfa-4940-a7fc-2149a39b2c59.png)
+6.What is the distribution of seller ratings on Olist, and how does this impact sales performance
 ![image](https://user-images.githubusercontent.com/53274845/236683676-665fbcf2-5c3d-4fd3-ac82-70a8c17d2de9.png)
 
 ![image](https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png)
