@@ -56,8 +56,7 @@ group by c.product_category_name_english
 order by 2 DESC
 
 
---4: What is the average order value (AOV) on Olist, and how does this vary by product category
-or payment method?
+--4: What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?
 
 --by category
 select c.product_category_name_english as Category,round(avg(pa.payment_value),2) as AOV
@@ -114,7 +113,7 @@ order by 1 DESC
 7. How many customers have made repeat purchases on Olist, and what percentage of total
 sales do they account for?
 
-with first_purchase as(
+
 
 --count of repeat customers
 with rp as (select distinct c.customer_unique_id as unique_id,count( o.order_id) as count_of_repeat_purchases
@@ -156,10 +155,10 @@ select round(avg(review_score),2) as average_ratings,p.product_category_name_eng
 round(sum(op.payment_value),2) as Total_revnue,round(avg(op.payment_value),2) as Average_revnue
 from order_reviews r
 join orders_dataset o on r.order_id=o.order_id
-join order_items_dataset i on r.order_id=i.order_id
+join order_items_dataset i on o.order_id=i.order_id
 join products_dataset pa on  i.product_id=pa.product_id
 join product_category_name_translation p on pa.product_category_name=p.product_category_name
-join order_payments_dataset op on r.order_id=op.order_id
+join order_payments_dataset op on o.order_id=op.order_id
 where o.order_status<> 'canceled'
 group by p.product_category_name_english
 order by 1 DESC
