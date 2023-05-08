@@ -83,6 +83,12 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ![image](https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png)
 
+8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?
+Average of Review Score vs. average of Payment Value and sum of Payment Value.  Details are shown for Product Category Name English. The data is filtered on Order Status, which excludes canceled.
+
+![image](https://user-images.githubusercontent.com/53274845/236753397-308a004c-eb28-4131-8c9e-857d1b068fc5.png)
+
+
 
 
 
