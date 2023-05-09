@@ -182,7 +182,10 @@ order by 4 DESC
 
 
 
-10.--top selling products over the entire duration
+10.What are the top-selling products on Olist, and how have their sales trends changed over time?
+
+
+--top selling products over the entire duration
 select p.product_category_name_english,round(sum(pa.payment_value),2) as Total_revenue
 from order_items_dataset i
 join orders_dataset o on i.order_id=o.order_id
@@ -282,7 +285,7 @@ order by 2 DESC
 --new products
 
 
---15
+--15 Geolocation having high customer density. Calculate customer retention rate according to geolocations
 
 select  c.customer_state,count(distinct c.customer_id) as  customer_density
 from customers_dataset c
