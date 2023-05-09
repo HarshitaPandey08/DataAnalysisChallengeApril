@@ -56,6 +56,9 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ![image](https://user-images.githubusercontent.com/53274845/236664692-2b7b66a5-d10a-4651-8d94-01ed6dc6155a.png)
 
+![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/fc533e07-491f-4f48-a677-eb17c19c04b5)
+
+
 
 **4. What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?**
 
