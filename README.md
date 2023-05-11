@@ -188,8 +188,13 @@ performance?**
 **13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?**
 
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/0f0975a5-db63-45fc-aa57-0f22b157a306)
+  
   </p>
+
+
+![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/1f5e4303-4313-4b00-aa17-26f1cb34eea4)
 
 
 
