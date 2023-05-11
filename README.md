@@ -146,41 +146,57 @@ performance?**
 **10.What are the top-selling products on Olist, and how have their sales trends changed over time?**
 
  <p align="center">
+  
 ![image](https://user-images.githubusercontent.com/53274845/236757406-d23d7821-c09e-4f5a-a8fe-e55a2d597bfe.png)
+  
   </p>
 
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/6889ffb5-339b-4c2b-b388-a136357c8c84)
+  
  </p>
 
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/b21b1e55-ebed-43fe-bd0d-2909c6c69e02)
+  
   </p>
 
   
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/fdc86a2d-3e6c-4a61-a8c1-f640b46e7c9b)
+  
   </p>
 
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/e9f1cddb-e949-4dd3-a98f-d29b9ae696f4)
+  
   </p>
 
 
 **11.Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?**
 
 <p align="center">
+  
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/e99d19a2-58f1-4deb-a8a6-8f43d9d89dd5" height="500" width="500" >
+  
   </p>
 
   
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/57862c44-db7a-40f6-b806-46ca05faa84c)
+  
   </p>
 
   
 <p align="center">
+  
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/419d2d10-0f57-4218-b70c-6fcf4b41dbe4)
+  
 </p>
 
 
