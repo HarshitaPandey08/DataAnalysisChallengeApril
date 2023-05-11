@@ -35,9 +35,13 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ![1_aXTlOcs3-l0L4Bi_pyiADA](https://user-images.githubusercontent.com/53274845/236130348-69a03e11-4d35-48f5-b3cf-37abb1994d20.jpg)
 
 The Data analysis involves 
+
 1.Data Exploration
+
 2.Data cleaning
+
 3.Answer Business case Solutions 
+
 4.Insights
 
 
@@ -67,8 +71,11 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 ![image](https://user-images.githubusercontent.com/53274845/236663337-18ac7034-fbf5-461f-bf5d-38a263f10d6f.png)
           
  </p>
+ 
+ 
 
-**2.How many orders were placed on Olist, and how does this vary by month or season?**
+## 2.How many orders were placed on Olist, and how does this vary by month or season?**
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236663526-107388e8-96fe-4784-a0ce-534c46a47f34.png" height="200" width="200" >
  </p>
@@ -80,7 +87,8 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
   
 </p>
 
-**3. What are the most popular product categories on Olist, and how do their sales volumes compare to each other?**
+
+## 3. What are the most popular product categories on Olist, and how do their sales volumes compare to each other?**
 
 <p align="center">
   
@@ -95,7 +103,7 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 
 
 
-**4. What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?**
+## 4. What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?**
 
 <p align="center">  
 <img src="https://user-images.githubusercontent.com/53274845/236682313-e6eee299-f6e8-446e-9fc7-8a0c425dc498.png" height="500" width="500" >
@@ -114,7 +122,8 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
   
  </p>
 
-**5.How many sellers are active on Olist, and how does this number change over time?**
+
+## 5.How many sellers are active on Olist, and how does this number change over time?**
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236682638-1d3c027b-c58e-4541-800e-7b9ad7da77f1.png" height="200" width="200" >
@@ -125,7 +134,7 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 </p>
 
 
-**6.What is the distribution of seller ratings on Olist, and how does this impact sales performance**
+## 6.What is the distribution of seller ratings on Olist, and how does this impact sales performance**
 
 
 <p align="center">
@@ -137,7 +146,7 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 <img src="https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png" height="500" width="500" >
 </p>
 
-**8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?**
+## 8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?**
 
 Average of Review Score vs. average of Payment Value and sum of Payment Value.  Details are shown for Product Category Name English. The data is filtered on Order Status, which excludes canceled.
 
@@ -146,7 +155,7 @@ Average of Review Score vs. average of Payment Value and sum of Payment Value.  
 <img src="https://user-images.githubusercontent.com/53274845/236753397-308a004c-eb28-4131-8c9e-857d1b068fc5.png" height="500" width="500" >
 </p>
 
-**9. What is the average order cancellation rate on Olist, and how does this impact seller
+## 9. What is the average order cancellation rate on Olist, and how does this impact seller
 performance?**
 
   
@@ -154,7 +163,7 @@ performance?**
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/f856b000-dd7f-4a51-9c25-85bbbd2f43a2" height="200" width="200" >
  </p>
 
-**10.What are the top-selling products on Olist, and how have their sales trends changed over time?**
+## 10.What are the top-selling products on Olist, and how have their sales trends changed over time?**
 
  <p align="center">
   
@@ -188,7 +197,7 @@ performance?**
   </p>
 
 
-**11.Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?**
+## 11.Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?**
 
 <p align="center">
   
@@ -212,7 +221,7 @@ performance?**
 
 
 
-**13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?**
+## 13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?**
 
 <p align="center">
   
