@@ -81,8 +81,11 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 </p>
 
 **3. What are the most popular product categories on Olist, and how do their sales volumes compare to each other?**
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236664692-2b7b66a5-d10a-4651-8d94-01ed6dc6155a.png" height="500" width="500">
+  
+![image](https://user-images.githubusercontent.com/53274845/236664692-2b7b66a5-d10a-4651-8d94-01ed6dc6155a.png)
+  
 </p>
 
   
@@ -100,7 +103,9 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 
 
 <p align="center">
+  
 ![image](https://user-images.githubusercontent.com/53274845/236682252-b1d0f4a9-3419-494f-976e-c38c2ebd7b72.png)
+  
 </p>
 
 <p align="center">
@@ -216,7 +221,6 @@ performance?**
   </p>
 
 
-![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/1f5e4303-4313-4b00-aa17-26f1cb34eea4)
 
 
 
