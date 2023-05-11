@@ -63,7 +63,9 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236663337-18ac7034-fbf5-461f-bf5d-38a263f10d6f.png" height="500" width="500" >
+  
+![image](https://user-images.githubusercontent.com/53274845/236663337-18ac7034-fbf5-461f-bf5d-38a263f10d6f.png)
+          
  </p>
 
 **2.How many orders were placed on Olist, and how does this vary by month or season?**
@@ -73,7 +75,9 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
   
   
 <p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236663825-3b93a90a-004b-4a36-8c87-7e6f6db6e6ab.png" height="500" width="500" >
+  
+![image](https://user-images.githubusercontent.com/53274845/236663825-3b93a90a-004b-4a36-8c87-7e6f6db6e6ab.png)
+  
 </p>
 
 **3. What are the most popular product categories on Olist, and how do their sales volumes compare to each other?**
@@ -96,12 +100,12 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236682252-b1d0f4a9-3419-494f-976e-c38c2ebd7b72.png" height="500" width="500" >
+![image](https://user-images.githubusercontent.com/53274845/236682252-b1d0f4a9-3419-494f-976e-c38c2ebd7b72.png)
 </p>
 
 <p align="center">
   
-![image](https://user-images.githubusercontent.com/53274845/236665854-6a5220ad-73a0-4793-9457-b26a5e57b34a.png)
+<img src="https://user-images.githubusercontent.com/53274845/236665854-6a5220ad-73a0-4793-9457-b26a5e57b34a.png" height="500" width="500" >
   
  </p>
 
