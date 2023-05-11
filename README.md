@@ -100,7 +100,9 @@ Based on the chart, it can be concluded that Olist had its best sales performanc
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236665854-6a5220ad-73a0-4793-9457-b26a5e57b34a.png" height="500" width="500" >
+  
+![image](https://user-images.githubusercontent.com/53274845/236665854-6a5220ad-73a0-4793-9457-b26a5e57b34a.png)
+  
  </p>
 
 **5.How many sellers are active on Olist, and how does this number change over time?**
