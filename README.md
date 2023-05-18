@@ -240,7 +240,8 @@ In 2018 heath beauty was again the top selling product with most revenue.
   
 </p>
 
-
+## 12: How do customer reviews and ratings affect sales and product performance on Olist?
+Answer from the above question can be interpreted from answer of Question 6.
 
 ## 13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?
 
