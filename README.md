@@ -242,14 +242,14 @@ In 2018 heath beauty was again the top selling product with most revenue.
 
 
 
-## 13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?**
+## 13.Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?
 
 <p align="center">
   
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/0f0975a5-db63-45fc-aa57-0f22b157a306)
   
   </p>
-
+The product category with highest profit margin greater than 70% is  home_comfort_2 .The lowest is small home appliances. 
 
 
 
