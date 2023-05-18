@@ -141,7 +141,7 @@ There are 3056 sellers active on Olist.
 In 2016 the number of sellers were least in the enitre duration of dataset.There has been a increase in the number every year,with 2018 reaching the maximum of 2354 sellers.
 
 
-## 6.What is the distribution of seller ratings on Olist, and how does this impact sales performance**
+## 6.What is the distribution of seller ratings on Olist, and how does this impact sales performance
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png" height="500" width="500" >
@@ -156,31 +156,37 @@ In Olist most of sellers belong to the rating 5 category followed by rating 4,wh
  Similar trend  can be observed in the revenue generated as sellers with higher rating have more sales and hence more revenue.
  When both the charts are compared there is similairty when in comes to rating in terms of number of sellers and the revenue.
 
-## 8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?**
+## 8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?
 
-Average of Review Score vs. average of Payment Value and sum of Payment Value.  Details are shown for Product Category Name English. The data is filtered on Order Status, which excludes canceled.
+The graph below depicts the Average of Review Score vs. average of Payment Value and sum of Payment Value. 
+Details are shown for Product Category Name English. The data is filtered on Order Status, which excludes canceled.
 
   
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236753397-308a004c-eb28-4131-8c9e-857d1b068fc5.png" height="500" width="500" >
 </p>
 
-## 9. What is the average order cancellation rate on Olist, and how does this impact seller
-performance?**
+From the plot it is clear that the average customer rating for most of the products sold is 4 and it has a positive impact on the sales.
+
+## 9. What is the average order cancellation rate on Olist, and how does this impact seller performance?
 
   
 <p align="center">
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/f856b000-dd7f-4a51-9c25-85bbbd2f43a2" height="200" width="200" >
  </p>
+ 
+ The average cacellation rate on Olist is 0.63% which is a good thing that there are more customers that are happy with the products they are buying.
+ This is a good indicator as it builds the brand value and increases the customer loyalty for the platform.
+ 
 
-## 10.What are the top-selling products on Olist, and how have their sales trends changed over time?**
+## 10.What are the top-selling products on Olist, and how have their sales trends changed over time?
 
  <p align="center">
   
 ![image](https://user-images.githubusercontent.com/53274845/236757406-d23d7821-c09e-4f5a-a8fe-e55a2d597bfe.png)
   
   </p>
-
+Overall the the product with highest sales from 2016-2018 is health beauty,while the most sold product belong to the bed bath table catogory.
 <p align="center">
   
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/6889ffb5-339b-4c2b-b388-a136357c8c84)
@@ -192,28 +198,32 @@ performance?**
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/b21b1e55-ebed-43fe-bd0d-2909c6c69e02)
   
   </p>
-
+  In 2016 health beauty was the product category with sales greater than 1400k 
+<p align="center">
   
+![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/e9f1cddb-e949-4dd3-a98f-d29b9ae696f4)
+  
+  </p>
+  
+ In 2017 bed bath table overtook health beauty category in sales.
 <p align="center">
   
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/fdc86a2d-3e6c-4a61-a8c1-f640b46e7c9b)
   
   </p>
 
-<p align="center">
-  
-![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/e9f1cddb-e949-4dd3-a98f-d29b9ae696f4)
-  
-  </p>
+In 2018 heath beauty was again the top selling product with most revenue.
 
 
-## 11.Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?**
+## 11.Which payment methods are most commonly used by Olist customers, and how does this vary by product category or geographic region?
 
 <p align="center">
   
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/e99d19a2-58f1-4deb-a8a6-8f43d9d89dd5" height="500" width="500" >
   
   </p>
+  The most used payment method by Olist customers is credit card with more than 70K orders placed,follwed by boleto with approx 20k orders placed.The least used 
+  method was debit card with orders less than 5K.Certain offers or discounts can be offered on the payment type to boost the sales.
 
   
 <p align="center">
@@ -222,6 +232,7 @@ performance?**
   
   </p>
 
+  The table above depicts that even category wise,credit surpasses all other payment methods in terms of preference by customers of Olist.The same trend can be  for the goegraphical regions as shown below.
   
 <p align="center">
   
