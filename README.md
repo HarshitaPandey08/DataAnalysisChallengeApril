@@ -100,7 +100,7 @@ The Information obtained can be used to stock inventory and manage staffing leve
   
 </p>
 
-The most popular product category on Olist is bed bath table with total number of orders of 9.4K apporximately with health beauty as the second most poular product category.
+The most popular product category on Olist is bed bath table with total number of orders of 9.4K apporximately with health beauty as the second most poular product category.But higher number of orders does not really imply that these product category have higher sales.
   
 <p align="center">  
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/fc533e07-491f-4f48-a677-eb17c19c04b5" height="500" width="500" >
@@ -109,6 +109,9 @@ The most popular product category on Olist is bed bath table with total number o
 
 
 ## 4. What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?
+
+The average order value (AOV) is metirc used in ecommerce that measures  the average total of every order placed .
+The formula for AOV calculation is total revenue/total orders.
 
 <p align="center">  
 <img src="https://user-images.githubusercontent.com/53274845/236682313-e6eee299-f6e8-446e-9fc7-8a0c425dc498.png" height="500" width="500" >
@@ -251,6 +254,13 @@ Answer from the above question can be interpreted from answer of Question 6.
   
   </p>
 The product category with highest profit margin greater than 70% is  home_comfort_2 .The lowest is small home appliances. 
+
+## 14: How does Olist's marketing spend and channel mix impact sales and customer acquisition costs, and how can the company optimize its marketing strategy to increase ROI?
+
+To increase sales and become more profitable Olist can:
+1.Implememnt better marketing strategies
+2.offer and discounts on proudcts which are selling well to increase the revneue 
+3.Introduce new products in the most profitable category
 
 
 
