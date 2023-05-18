@@ -294,13 +294,40 @@ To increase sales and become more profitable Olist can:
 
 --15 Geolocation having high customer density. Calculate customer retention rate according to geolocations
 
-select  c.customer_state,count(distinct c.customer_id) as  customer_density
+select  CASE c.customer_state
+    WHEN 'AC' THEN 'Acre'
+    WHEN 'AL' THEN 'Alagoas'
+    WHEN 'AP' THEN 'Amapa'
+    WHEN 'AM' THEN 'Amazonas'
+    WHEN 'BA' THEN 'Bahia'
+    WHEN 'CE' THEN 'Ceara'
+    WHEN 'DF' THEN 'Distrito Federal'
+    WHEN 'ES' THEN 'Espirito Santo'
+    WHEN 'GO' THEN 'Goias'
+    WHEN 'MA' THEN 'Maranhao'
+    WHEN 'MT' THEN 'Mato Grosso'
+    WHEN 'MS' THEN 'Mato Grosso do Sul'
+    WHEN 'MG' THEN 'Minas Gerais'
+    WHEN 'PA' THEN 'Para'
+    WHEN 'PB' THEN 'Paraiba'
+    WHEN 'PR' THEN 'Parana'
+    WHEN 'PE' THEN 'Pernambuco'
+    WHEN 'PI' THEN 'Piaui'
+    WHEN 'RJ' THEN 'Rio de Janeiro'
+    WHEN 'RN' THEN 'Rio Grande do Norte'
+    WHEN 'RS' THEN 'Rio Grande do Sul'
+    WHEN 'RO' THEN 'Rondonia'
+    WHEN 'RR' THEN 'Roraima'
+    WHEN 'SC' THEN 'Santa Catarina'
+    WHEN 'SP' THEN 'Sao Paulo'
+    WHEN 'SE' THEN 'Sergipe'
+    WHEN 'TO' THEN 'Tocantins'
+  END as State,count(distinct c.customer_id) as  customer_density
 from customers_dataset c
-join geolocation_dataset g on c.customer_state=g.geolocation_state
+join geolocation_dataset g on c.customer_zip_code_prefix=g.geolocation_zip_code_prefix
 join orders_dataset o on c.customer_id=o.customer_id
 group by c.customer_state
 order by 2 DESC
-
 
 
 
