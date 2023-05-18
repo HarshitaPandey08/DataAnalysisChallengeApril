@@ -100,6 +100,7 @@ The Information obtained can be used to stock inventory and manage staffing leve
   
 </p>
 
+The most popular product category on Olist is bed bath table with total number of orders of 9.4K apporximately with health beauty as the second most poular product category.
   
 <p align="center">  
 <img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/fc533e07-491f-4f48-a677-eb17c19c04b5" height="500" width="500" >
@@ -127,28 +128,33 @@ The Information obtained can be used to stock inventory and manage staffing leve
  </p>
 
 
-## 5.How many sellers are active on Olist, and how does this number change over time?**
+## 5.How many sellers are active on Olist, and how does this number change over time?
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236682638-1d3c027b-c58e-4541-800e-7b9ad7da77f1.png" height="200" width="200" >
 </p>
+There are 3056 sellers active on Olist.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236682958-9f62917e-1dfa-4940-a7fc-2149a39b2c59.png" height="200" width="200">
 </p>
+In 2016 the number of sellers were least in the enitre duration of dataset.There has been a increase in the number every year,with 2018 reaching the maximum of 2354 sellers.
 
 
 ## 6.What is the distribution of seller ratings on Olist, and how does this impact sales performance**
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png" height="500" width="500" >
+</p>
+
+In Olist most of sellers belong to the rating 5 category followed by rating 4,which is a good thing as customers are satisfied with the products purchased from most of the sellers.This satisfaction can be due to many factors such as quality of product,price of product,delivery time etc.The third highest sellers belong to the rating 1 category.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/53274845/236683676-665fbcf2-5c3d-4fd3-ac82-70a8c17d2de9.png" height="500" width="500" >
  </p>
 
-  
-<p align="center">
-<img src="https://user-images.githubusercontent.com/53274845/236683823-c751943a-b9c4-4dcf-9caa-74fc1bd8f831.png" height="500" width="500" >
-</p>
+ Similar trend  can be observed in the revenue generated as sellers with higher rating have more sales and hence more revenue.
+ When both the charts are compared there is similairty when in comes to rating in terms of number of sellers and the revenue.
 
 ## 8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?**
 
