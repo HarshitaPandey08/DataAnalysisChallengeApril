@@ -327,6 +327,7 @@ Most of the Olist customers are from Sao Paulo followed by Rio de Janeiro.
 
 3.https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
+4.https://marketing4ecommerce.mx/el-ecommerce-crecera-en-mexico-un-32-cada-ano-hacia-2026/  -Image Source
 
 
 
