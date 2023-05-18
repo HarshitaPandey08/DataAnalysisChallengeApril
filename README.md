@@ -158,6 +158,16 @@ In Olist most of sellers belong to the rating 5 category followed by rating 4,wh
 
  Similar trend  can be observed in the revenue generated as sellers with higher rating have more sales and hence more revenue.
  When both the charts are compared there is similairty when in comes to rating in terms of number of sellers and the revenue.
+ 
+ ## 7.How many customers have made repeat purchases on Olist, and what percentage of total sales do they account for?
+ 
+ ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/42567e48-4488-488a-82dc-4c867951f763)
+ The total number of repeat customers in Olist are 2924 and the total customers in Olist are 99441.
+ 
+![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/2e197673-032a-4980-b20f-e6be85e7ce22)
+The repeat customers in Olist account for about 8.55% of sales approximately.
+
+
 
 ## 8. What is the average customer rating for products sold on Olist, and how does this impact sales performance?
 
