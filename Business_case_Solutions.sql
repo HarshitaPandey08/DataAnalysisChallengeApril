@@ -324,11 +324,8 @@ select  CASE c.customer_state
     WHEN 'TO' THEN 'Tocantins'
   END as State,count(distinct c.customer_id) as  customer_density
 from customers_dataset c
-join geolocation_dataset g on c.customer_zip_code_prefix=g.geolocation_zip_code_prefix
-join orders_dataset o on c.customer_id=o.customer_id
 group by c.customer_state
 order by 2 DESC
-
 
 
 
