@@ -25,9 +25,6 @@ understand the e-commerce landscape in Brazil and identify opportunities for gro
 optimization.
 
 
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
-
 
 **Data Schema**
 
@@ -315,7 +312,10 @@ Most of the Olist customers are from Sao Paulo followed by Rio de Janeiro.
 
 ## References:
 1.https://en.wikipedia.org/wiki/Boleto
+
 2.https://www.optimizely.com/optimization-glossary/average-order-value/
+
+3.https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 
 
