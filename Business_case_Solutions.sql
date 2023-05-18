@@ -266,6 +266,9 @@ join product_category_name_translation pc on pr.product_category_name=pc.product
 where o.order_status<>'canceled' and o.order_approved_at is not null 
 group by c.customer_state
 
+--12: How do customer reviews and ratings affect sales and product performance on Olist?
+Answer from the above question can be interpreted from answer of Question 6.
+
 
 --13: Which product categories have the highest profit margins on Olist, and how can the company increase profitability across different categories?
 
@@ -279,6 +282,8 @@ join product_category_name_translation pc on pr.product_category_name=pc.product
 where o.order_approved_at is not null and o.order_status<>'canceled'
 group by pc.product_category_name_english
 order by 2 DESC
+
+--14: : How does Olist's marketing spend and channel mix impact sales and customer acquisition costs, and how can the company optimize its marketing strategy to increase ROI?
 
 --better marketing
 --offer and discounts
