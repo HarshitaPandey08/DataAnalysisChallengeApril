@@ -31,7 +31,9 @@ select geolocation_zip_code_prefix , geolocation_lat , geolocation_lng
   , geolocation_city , geolocation_state 
   having count(*)>1;
 
-  --checking for special characters: Yes (geolocation city has characters like Ã £ 64382 rows)
+  --checking for special characters: Yes (geolocation city has characters like Ãƒ Â£ 64382 rows)
+  --All these special characters belong to one column
+  
   select geolocation_zip_code_prefix from [dbo].[geolocation_dataset]
   where geolocation_zip_code_prefix like '%[^0-9]%'
 
@@ -46,3 +48,4 @@ select geolocation_zip_code_prefix , geolocation_lat , geolocation_lng
 
   select  geolocation_state from [dbo].[geolocation_dataset]
   where  geolocation_state like '%[^a-zA-Z ]%'
+  
