@@ -285,9 +285,11 @@ order by 2 DESC
 
 --14: : How does Olist's marketing spend and channel mix impact sales and customer acquisition costs, and how can the company optimize its marketing strategy to increase ROI?
 
---better marketing
---offer and discounts
---new products
+To increase sales and become more profitable Olist can:
+1.Implememnt better marketing strategies
+2.offer and discounts on proudcts which are selling well to increase the revneue 
+3.Introduce new products in the most profitable category
+
 
 
 --15 Geolocation having high customer density. Calculate customer retention rate according to geolocations
