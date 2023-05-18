@@ -262,8 +262,11 @@ To increase sales and become more profitable Olist can:
 2.offer and discounts on proudcts which are selling well to increase the revneue 
 3.Introduce new products in the most profitable category
 
-##15: Geolocation having high customer density. Calculate customer retention rate according to geolocations
+## 15: Geolocation having high customer density.
+
 ![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/29f344fc-2012-469b-b5af-ec1288f56f2a)
+
+Most of the Olist customers are from Sao Paulo followed by Rio de Janeiro.
 
 
 
