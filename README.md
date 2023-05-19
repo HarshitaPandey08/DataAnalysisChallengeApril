@@ -5,9 +5,7 @@
 
 
 
-![p2](https://user-images.githubusercontent.com/53274845/236129119-c458b1b9-e0e8-490d-b28a-5fcb2bb1857d.jpg)
-
-
+![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/92fb6a57-3374-493f-8776-77da32488895)
 
 **Introduction:**
 
