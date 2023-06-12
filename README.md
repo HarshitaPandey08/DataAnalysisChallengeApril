@@ -3,9 +3,12 @@
 
 **- Harshita Pandey**
 
+<p align="center">
+<img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/92fb6a57-3374-493f-8776-77da32488895
+" height="200" width="200" >
+</p>
 
-
-![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/92fb6a57-3374-493f-8776-77da32488895)
+https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/92fb6a57-3374-493f-8776-77da32488895
 
 **Introduction:**
 
