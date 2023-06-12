@@ -4,7 +4,7 @@
 **- Harshita Pandey**
 
 <p align="center">
-<img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/ea25cc12-2f63-4845-8657-a4f56942a491" height="200" width="200" >
+<img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/ea25cc12-2f63-4845-8657-a4f56942a491"  >
 </p>
 
 
