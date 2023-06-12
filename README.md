@@ -4,10 +4,9 @@
 **- Harshita Pandey**
 
 <p align="center">
-<img src="![image](https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/15be7087-8f83-4b6f-a47f-51359e1151ae)" height="200" width="200" >
+<img src="https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/15be7087-8f83-4b6f-a47f-51359e1151ae" height="200" width="200" >
 </p>
 
-https://github.com/HarshitaPandey08/DataAnalysisChallengeApril/assets/53274845/92fb6a57-3374-493f-8776-77da32488895
 
 **Introduction:**
 
