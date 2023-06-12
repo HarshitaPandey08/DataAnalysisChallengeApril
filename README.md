@@ -26,9 +26,9 @@ optimization.
 
 
 **Data Schema**
-
-
-![1_aXTlOcs3-l0L4Bi_pyiADA](https://user-images.githubusercontent.com/53274845/236130348-69a03e11-4d35-48f5-b3cf-37abb1994d20.jpg)
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/53274845/236130348-69a03e11-4d35-48f5-b3cf-37abb1994d20.jpg)" height="200" width="200" >
+</p>
 
 The Data analysis involves 
 
